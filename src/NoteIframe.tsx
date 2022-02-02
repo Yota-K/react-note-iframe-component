@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { NoteIframeProps } from './type';
 
-const NoteIframe: React.FC<NoteIframeProps> = ({ url, index }) => {
+export const NoteIframe: React.FC<NoteIframeProps> = ({ url, index }) => {
   const BASE_URL = 'https://note.com/embed/notes';
 
   // Injection script
@@ -57,5 +57,3 @@ const NoteIframe: React.FC<NoteIframeProps> = ({ url, index }) => {
 
   return <iframe className={className} src={`${BASE_URL}/${pickNoteId(url)}`} style={noteIframeStyle} />;
 };
-
-export default NoteIframe;

@@ -1,1 +1,1 @@
-export * as NoteIframe from './NoteIframe';
+export { NoteIframe } from './NoteIframe';
