@@ -1,5 +1,4 @@
-// {}つけたらimportはできるようになった
-import { NoteIframe } from 'react-note-iframe-component';
+import NoteIframe from 'react-note-iframe-component';
 
 const App = () => {
   const urls = [
