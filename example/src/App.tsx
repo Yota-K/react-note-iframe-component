@@ -1,6 +1,5 @@
-// TODO: 型定義ファイルが必要そう
-// エラーは出ているけどローカル環境で操作はしてる
-import NoteIframe from 'react-note-iframe-component';
+// {}つけたらimportはできるようになった
+import { NoteIframe } from 'react-note-iframe-component';
 
 const App = () => {
   const urls = [

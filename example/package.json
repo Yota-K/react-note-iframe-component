@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-note-iframe-component": "^0.1.0"
+    "react-note-iframe-component": "^0.1.5"
   },
   "devDependencies": {
     "@types/react": "^17.0.33",

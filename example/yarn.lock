@@ -596,10 +596,10 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-note-iframe-component@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/react-note-iframe-component/-/react-note-iframe-component-0.1.0.tgz#9e3bf8b4d5a12d9f725c30b8d79513dcc2766cb6"
-  integrity sha512-ojS2BViBuqXa8IcKgdTsrieqgCcWAvr9tzQUicXb6OtZ2/Nd6+yUh0uIMxwBJXbzepLlTPG3ostkPQ0m/9dB4g==
+react-note-iframe-component@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/react-note-iframe-component/-/react-note-iframe-component-0.1.5.tgz#046bea08cb5f7369b2454ba084456ac9dd2b6986"
+  integrity sha512-NFReVy4qHyjIUd4okKg4wulRtJpQzsfl4IMrt8YU7A9EOO/VH1pxzNQjQPnYhWFJBDdB2VPxu72LbNKwtp4HCA==
 
 react-refresh@^0.11.0:
   version "0.11.0"
