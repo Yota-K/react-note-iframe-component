@@ -1,11 +1,7 @@
 import React, { useEffect } from 'react';
+import { NoteIframeProps } from './type';
 
-type Props = {
-  url: string;
-  index?: number;
-};
-
-const NoteIframe: React.FC<Props> = ({ url, index }) => {
+const NoteIframe: React.FC<NoteIframeProps> = ({ url, index }) => {
   const BASE_URL = 'https://note.com/embed/notes';
 
   // Injection script
