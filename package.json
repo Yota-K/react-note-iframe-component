@@ -1,7 +1,7 @@
 {
   "name": "react-note-iframe-component",
   "description": "Note iframe component library available in React.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -15,7 +15,8 @@
   "sideEffects": false,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "run-p build:*",
+    "build:scripts": "vite build",
     "build:types": "tsc --emitDeclarationOnly && tsc-alias",
     "preview": "vite preview",
     "prepublishOnly": "yarn build"
