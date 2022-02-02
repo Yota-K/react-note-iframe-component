@@ -1,4 +1,1 @@
-import NoteIframe from './NoteIframe';
-
-export { NoteIframe };
-export default NoteIframe;
+export * as NoteIframe from './NoteIframe';

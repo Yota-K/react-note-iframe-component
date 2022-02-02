@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "dist",
     "target": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -14,7 +14,8 @@
     "isolatedModules": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "declarationMap": true
   },
   "files": ["./src/index.ts"]
 }
